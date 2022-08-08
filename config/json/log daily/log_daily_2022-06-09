@@ -1,0 +1,44 @@
+{
+  "1": {
+    "Name": "error"
+  },
+  "2": {
+    "Name": "error"
+  },
+  "3": {
+    "Name": "error"
+  },
+  "4": {
+    "Name": "ccccccccc",
+    "FileSource": "C:\\Users\\jules\\Documents\\KUHN\\administratif kuhn",
+    "FileTarget": "C:\\Users\\jules\\Downloads",
+    "FileSize": "25236",
+    "FileTransferTime": "00:00:04.7803084",
+    "Time": "09/06/2022 00:26:58",
+    "timeCrypt": "04.1890000"
+  },
+  "5": {
+    "Name": "error"
+  },
+  "6": {
+    "Name": "ccccccccc",
+    "FileSource": "C:\\Users\\jules\\Documents\\KUHN\\administratif kuhn",
+    "FileTarget": "C:\\Users\\jules\\Downloads",
+    "FileSize": "25236",
+    "FileTransferTime": "00:00:05.2103622",
+    "Time": "09/06/2022 00:29:02",
+    "timeCrypt": "04.6410000"
+  },
+  "7": {
+    "Name": "error"
+  },
+  "8": {
+    "Name": "ccccccccc",
+    "FileSource": "C:\\Users\\jules\\Documents\\KUHN\\administratif kuhn",
+    "FileTarget": "C:\\Users\\jules\\Downloads",
+    "FileSize": "25236",
+    "FileTransferTime": "00:00:26.9689558",
+    "Time": "09/06/2022 00:29:27",
+    "timeCrypt": "05.6480000"
+  }
+}

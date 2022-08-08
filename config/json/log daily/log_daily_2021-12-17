@@ -1,0 +1,281 @@
+{
+  "1": {
+    "Name": "aaaaaaa",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source2",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target2",
+    "FileSize": "137862",
+    "FileTransferTime": "00:00:01.0310868",
+    "Time": "17/12/2021 11:40:42",
+    "timeCrypt": "0"
+  },
+  "2": {
+    "Name": "aaaaaaa",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source2",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target2",
+    "FileSize": "137862",
+    "FileTransferTime": "00:00:01.9269458",
+    "Time": "17/12/2021 11:46:43",
+    "timeCrypt": "0"
+  },
+  "3": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "448",
+    "FileTransferTime": "00:00:01.9568218",
+    "Time": "17/12/2021 11:46:43",
+    "timeCrypt": "0"
+  },
+  "4": {
+    "Name": "aaaaaaa",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source2",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target2",
+    "FileSize": "137862",
+    "FileTransferTime": "00:00:01.9197795",
+    "Time": "17/12/2021 11:47:13",
+    "timeCrypt": "0"
+  },
+  "5": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "23425",
+    "FileTransferTime": "00:00:02.1374840",
+    "Time": "17/12/2021 11:47:13",
+    "timeCrypt": "0"
+  },
+  "6": {
+    "Name": "aaaaaaa",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source2",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target2",
+    "FileSize": "137862",
+    "FileTransferTime": "00:00:01.4049282",
+    "Time": "17/12/2021 11:47:38",
+    "timeCrypt": "0"
+  },
+  "7": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "23425",
+    "FileTransferTime": "00:00:01.5236572",
+    "Time": "17/12/2021 11:47:38",
+    "timeCrypt": "0"
+  },
+  "8": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "23425",
+    "FileTransferTime": "00:00:20.6488533",
+    "Time": "17/12/2021 11:48:20",
+    "timeCrypt": "20.0050000"
+  },
+  "9": {
+    "Name": "error"
+  },
+  "10": {
+    "Name": "error"
+  },
+  "11": {
+    "Name": "error"
+  },
+  "12": {
+    "Name": "error"
+  },
+  "13": {
+    "Name": "error"
+  },
+  "14": {
+    "Name": "error"
+  },
+  "15": {
+    "Name": "error"
+  },
+  "16": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "23425",
+    "FileTransferTime": "00:00:21.3115569",
+    "Time": "17/12/2021 11:49:34",
+    "timeCrypt": "20.6660000"
+  },
+  "17": {
+    "Name": "error"
+  },
+  "18": {
+    "Name": "error"
+  },
+  "19": {
+    "Name": "error"
+  },
+  "20": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "23425",
+    "FileTransferTime": "00:00:19.1316972",
+    "Time": "17/12/2021 11:50:25",
+    "timeCrypt": "18.5300000"
+  },
+  "21": {
+    "Name": "error"
+  },
+  "22": {
+    "Name": "error"
+  },
+  "23": {
+    "Name": "error"
+  },
+  "24": {
+    "Name": "error"
+  },
+  "25": {
+    "Name": "ccccccccc",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet BDD",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target",
+    "FileSize": "1037699",
+    "FileTransferTime": "00:00:08.9508044",
+    "Time": "17/12/2021 11:52:11",
+    "timeCrypt": "04.3670000"
+  },
+  "26": {
+    "Name": "aaaaaaa",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source2",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target2",
+    "FileSize": "137862",
+    "FileTransferTime": "00:01:22.1140952",
+    "Time": "17/12/2021 11:56:10",
+    "timeCrypt": "21.5500000"
+  },
+  "27": {
+    "Name": "aaaaaaa",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source2",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target2",
+    "FileSize": "137862",
+    "FileTransferTime": "00:00:01.0101314",
+    "Time": "17/12/2021 11:59:54",
+    "timeCrypt": "0"
+  },
+  "28": {
+    "Name": "error"
+  },
+  "29": {
+    "Name": "error"
+  },
+  "30": {
+    "Name": "bbbbbbbbb",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source3",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target3",
+    "FileSize": "227217",
+    "FileTransferTime": "00:00:04.6189419",
+    "Time": "17/12/2021 12:02:45",
+    "timeCrypt": "0"
+  },
+  "31": {
+    "Name": "ccccccccc",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet BDD",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target",
+    "FileSize": "1037699",
+    "FileTransferTime": "00:00:06.1637236",
+    "Time": "17/12/2021 12:02:45",
+    "timeCrypt": "0"
+  },
+  "32": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "23425",
+    "FileTransferTime": "00:00:01.5770102",
+    "Time": "17/12/2021 12:03:22",
+    "timeCrypt": "0"
+  },
+  "33": {
+    "Name": "error"
+  },
+  "34": {
+    "Name": "error"
+  },
+  "35": {
+    "Name": "error"
+  },
+  "36": {
+    "Name": "error"
+  },
+  "37": {
+    "Name": "bbbbbbbbb",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source3",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target3",
+    "FileSize": "227217",
+    "FileTransferTime": "00:00:04.9951432",
+    "Time": "17/12/2021 12:05:41",
+    "timeCrypt": "0"
+  },
+  "38": {
+    "Name": "ccccccccc",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet BDD",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target",
+    "FileSize": "1037699",
+    "FileTransferTime": "00:00:07.0553981",
+    "Time": "17/12/2021 12:05:41",
+    "timeCrypt": "0"
+  },
+  "39": {
+    "Name": "error"
+  },
+  "40": {
+    "Name": "bbbbbbbbb",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source3",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target3",
+    "FileSize": "227217",
+    "FileTransferTime": "00:00:04.9807229",
+    "Time": "17/12/2021 12:05:52",
+    "timeCrypt": "0"
+  },
+  "41": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "0",
+    "FileTransferTime": "00:00:00.0010462",
+    "Time": "17/12/2021 13:01:18",
+    "timeCrypt": "0"
+  },
+  "42": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "0",
+    "FileTransferTime": "00:00:00.0003639",
+    "Time": "17/12/2021 18:21:23",
+    "timeCrypt": "0"
+  },
+  "43": {
+    "Name": "mes suoper fichiers",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\livrable 1",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target2",
+    "FileSize": "7783",
+    "FileTransferTime": "00:00:01.4961095",
+    "Time": "17/12/2021 18:21:23",
+    "timeCrypt": "0"
+  },
+  "44": {
+    "Name": "ccccccccc",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet BDD",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target",
+    "FileSize": "1037699",
+    "FileTransferTime": "00:00:05.9772518",
+    "Time": "17/12/2021 18:21:23",
+    "timeCrypt": "0"
+  },
+  "45": {
+    "Name": "dddddddddd",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\source4",
+    "FileTarget": "C:\\Users\\jules\\Documents\\CESI\\Projet C\\target4",
+    "FileSize": "0",
+    "FileTransferTime": "00:00:00.0002184",
+    "Time": "17/12/2021 18:23:21",
+    "timeCrypt": "0"
+  }
+}

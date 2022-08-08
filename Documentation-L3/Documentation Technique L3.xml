@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projet.NETG4-WPF</name>
+    </assembly>
+    <members>
+        <member name="T:Projet.NETG4_WPF.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Projet.NETG4_WPF.MenuPrincipale">
+            <summary>
+            Logique d'interaction pour MenuPrincipale.xaml
+            </summary>
+            <summary>
+            MenuPrincipale
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.CheckSaveType">
+            <summary>
+            The method to send the good Savetype 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.RemoveWork_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Remove a job from the listBox to run
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.Launcher_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Run all the jobs in the listBox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.worker_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+            <summary>
+            worker_ProgressChanged
+            </summary>
+            <param name="sender"></param> Variable usable to have information about the calling savework
+            <param name="e"></param> Variable  usefull to have the progression of the calling savework
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.addToRunList(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Add the name of the job selected to the run ListBox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DeleteJob_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Delete a job the selected job in the list
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.ModifyJob_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Display the CreateModify.xaml window as Modify window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.RefreshWindow">
+            <summary>
+            Refresh this window
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.RefreshData">
+            <summary>
+            Refresh data from the list save
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.RefreshCreateLanguage">
+            <summary>
+            Refresh the language on the create page
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.RefreshParamLanguage">
+            <summary>
+            Refresh the language on the parameter page
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.ClearCreateModify">
+            <summary>
+            Clear the create 
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.exitApp(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Event called when clicking on the exit button of the application
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.LeaveCreate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Event called when clicking on the exit button of the create page
+            /// </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.Parameters_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Display the parameter window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.ChangeParam(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method to apply the modification of the parameters
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DisplayLanguage">
+            <summary>
+            Display the current language choose by the user
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.ChangeLanguage">
+            <summary>
+            The method to change the language in the json parameter file
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DisplayFormat">
+            <summary>
+            The method to display the current log format in the parameter page
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.ChangeFormat">
+            <summary>
+            The method to change the log format in the parameter json file
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DisplayEncryptExtension">
+            <summary>
+            The method to display all the current extension that we encrypt in the parameter page
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.AddEncryptExtension_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method to add a new extension to encrypt in the json parameter file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DeleteEncryptExtension_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method to delete an extension to encrypt in the parameter file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DisplayPrioExtension">
+            <summary>
+            Display the priority of extensions choose by the user
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.AddPrioExtension_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Add a priority extension
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DeletPrioExtension_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Remove a priority extension
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DisplaySoftware">
+            <summary>
+            displays the software choose by the user 
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.AddSoftware_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method to add a new extension to encrypt in the json parameter file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.DeleteSoftware_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method to delete a software to block in the parameter file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.Back_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Event called when clicking of the exit button of the setting page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.Clear_Param">
+            <summary>
+            Reset the display of the setting page
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.LeaveRunning(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Exit the running page and ensure to cancel all savework's threads
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.CancelSaveClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Stop one or all running threads
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.SetupServer">
+            <summary>
+            Setup the server to wait for clients 
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.AcceptCallBack(System.IAsyncResult)">
+            <summary>
+            Callback method of the server 
+            </summary>
+            <param name="AR"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.PauseSaveClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Set in pause one or all running threads
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.ReceiveCallback(System.IAsyncResult)">
+            <summary>
+            Callback method when the server receive message
+            </summary>
+            <param name="AR"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.SendCallback(System.IAsyncResult)">
+            <summary>
+            Callback method when the server send a message
+            </summary>
+            <param name="AR"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.SendJobsToClients">
+            <summary>
+            Method which allows to send the list of saveworks to the client
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.SendUpdateSaveToClients(System.Collections.Generic.List{System.String},System.Int32)">
+            <summary>
+            Method which allows to send real time data to the client
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.SendRunningPageToClients(System.Collections.Generic.List{System.String})">
+            <summary>
+            Method which allows to display and initialize the running page  to the client
+            </summary>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.ResumeSaveClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Method which alllows to resume one or all running saves
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Method to drag and move the main window
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Projet.NETG4_WPF.MenuPrincipale.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:EventListner.IEventListner">
+            <summary>
+            Class use by the event manager, useful for inheritance
+            </summary>
+        </member>
+        <member name="M:EventListner.IEventListner.Update(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Methode Update call by the notify method from the event manager
+            </summary>
+            <param name="type"></param>
+            <param name="listUpdate"></param>
+        </member>
+        <member name="T:EventManager.EventManager_M">
+            <summary>
+            The event manager is useful to send real time updates of the saveworks
+            </summary>
+        </member>
+        <member name="F:EventManager.EventManager_M.observers">
+            <summary>
+            Create the list who will contain the observer's classes
+            </summary>
+        </member>
+        <member name="M:EventManager.EventManager_M.Register(EventListner.IEventListner)">
+            <summary>
+            Methode by wich the objects are added to the event listner list
+            </summary>
+            <param name="observer"></param>
+        </member>
+        <member name="M:EventManager.EventManager_M.Unregister(EventListner.IEventListner)">
+            <summary>
+            Methode by wich the objects are remove to the event listner list
+            </summary>
+            <param name="observer"></param>
+        </member>
+        <member name="M:EventManager.EventManager_M.Notify(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            method which can be used to activate the update method for objects in the list of observers
+            </summary>
+            <param name="infoUpdate"></param>
+            <param name="listUpdate"></param>
+        </member>
+        <member name="T:log_models.Log_daily">
+            <summary>
+            Definition of the log daily class
+            </summary>
+        </member>
+        <member name="M:log_models.Log_daily.Update(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Method update called from the event manager
+            </summary>
+            <param name="type"></param>
+            <param name="listUpdate_daily"></param>
+        </member>
+        <member name="M:log_models.Log_daily.checkFormat">
+            <summary>
+            Method to check the log format save in a json file
+            </summary>
+        </member>
+        <member name="T:log_models.Log_state">
+            <summary>
+            Definition of the log state class
+            </summary>
+        </member>
+        <member name="M:log_models.Log_state.Update(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Method update called from the event manager
+            </summary>
+            <param name="type"></param>
+            <param name="listUpdate_state"></param>
+        </member>
+        <member name="T:SaveModel.SaveComplete_M">
+            <summary>
+            Child class of the save for a complete save
+            </summary>
+        </member>
+        <member name="M:SaveModel.SaveComplete_M.RunSave(System.String,System.String,System.String,System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Run a complete save and return some information data relative to the complete save
+            </summary>
+            <param name="sourcePath">Source directory</param>
+            <param name="targetPath">Target directory</param>
+            <param name="name">Name of the Backup Job</param>
+            <returns>All information of the save store in a Dictionary</returns>
+        </member>
+        <member name="M:SaveModel.SaveComplete_M.priority_fileSorted(System.String,System.String)">
+            <summary>
+            Method to sort all file in priority order an return the list of file sorted 
+            </summary>
+            <param name="sourcePath">Target path of the file</param>
+            <param name="targetPath">Source path of the file</param>
+            <returns>The list sorted</returns>
+        </member>
+        <member name="T:SaveModel.SaveDiff_M">
+            <summary>
+            Child class of the save for a differential save
+            </summary>
+        </member>
+        <member name="M:SaveModel.SaveDiff_M.RunSave(System.String,System.String,System.String,System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Run a differential save and return some information data relative to the differential save
+            </summary>
+            <param name="sourcePath">Source directory</param>
+            <param name="targetPath">Target directory</param>
+            <param name="name">Name of the Backup Job</param>
+            <returns>All information of the save store in a Dictionary</returns>
+        </member>
+        <member name="M:SaveModel.SaveDiff_M.priority_fileSorted(System.String,System.String)">
+            <summary>
+            Method to sort all file in priority order an return the list of file sorted 
+            </summary>
+            <param name="sourcePath">Target path of the file</param>
+            <param name="targetPath">Source path of the file</param>
+            <returns>The list sorted</returns>
+        </member>
+        <member name="T:SaveModel.SaveFactory_M">
+            <summary>
+            Factory to create differente types of save depend of the user input
+            </summary>
+        </member>
+        <member name="M:SaveModel.SaveFactory_M.makeSave(System.String)">
+            <summary>
+            Method to instantiate an objet depend of the save type
+            </summary>
+            <param name="newSaveType">Save type of the Backup Job</param>
+            <returns>instance of a save object</returns>
+        </member>
+        <member name="T:SaveModel.Save_M">
+            <summary> 
+            Base class for save
+            </summary> 
+        </member>
+        <member name="M:SaveModel.Save_M.RunSave(System.String,System.String,System.String,System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Run a save and return some information data relative to the save
+            </summary>
+            <param name="sourcePath">Source directory</param>
+            <param name="targetPath">Target directory</param>
+            <param name="name">Name of the Backup Job</param>
+            <returns>saveListReturn</returns>
+        </member>
+        <member name="M:SaveModel.Save_M.getExtCrypt">
+            <summary>
+            Method to get the list of all extension we have to crypt save in a json file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SaveModel.Save_M.fill_state_list(System.String,System.Single,System.Double,System.Single,System.Single,System.String)">
+            <summary>
+            Fill the list to we send to the log state
+            </summary>
+            <param name="name">Name of the backup Job</param>
+            <param name="totalFileNb">Total number of file in the save</param>
+            <param name="totalFileSize">Total size of the file in the save</param>
+            <param name="remainingFiles">Number of remaining files in the current save</param>
+            <param name="progression">The progression of the save</param>
+            <param name="state">The state of the Backup Job End or Active</param>
+            <returns>Return the list with all information for the log state when the save is running</returns>
+        </member>
+        <member name="M:SaveModel.Save_M.fill_daily_list(System.String,System.String,System.String,System.Double,System.TimeSpan,System.String,System.String)">
+            <summary>
+            Fill the list to we send to the daily log
+            </summary>
+            <param name="name">Name of the backup Job</param>
+            <param name="sourcePath">Source path of the repository that we want to save</param>
+            <param name="targetPath">Taget path of the repository that we want to save</param>
+            <param name="FileSize">Total of the save</param>
+            <param name="TransferTime">The time that the save took</param>
+            <param name="DateSave">The date of the save</param>
+            <param name="tempsXor">The time that the encryption took</param>
+            <returns>A list with all information for the daily log</returns>
+        </member>
+        <member name="M:SaveModel.Save_M.check_process">
+            <summary>
+            Method that check if a process that we have save in the json file is running 
+            </summary>
+            <param name="fileName">Name of the file being processed when saving</param>
+            <returns>Return a bool if the file is a process in the blocked list</returns>
+        </member>
+        <member name="T:Language.Language_VM">
+            <summary>
+            Method to change the language
+            </summary>
+        </member>
+        <member name="M:Language.Language_VM.#ctor">
+            <summary>
+            Constructor of the language class that atribute the value of the path to the language path
+            </summary>
+        </member>
+        <member name="M:Language.Language_VM.changeCurrentLanguage(System.String)">
+            <summary>
+            The method to change the current language
+            </summary>
+            <param name="currentLanguage"></param>
+        </member>
+        <member name="M:Language.Language_VM.loadCurrentLanguage">
+            <summary>
+            The method to load the current language stored in the json file
+            </summary>
+        </member>
+        <member name="T:parameterJson.ParameterJson">
+            <summary>
+            The class for manipulate in the parameter json
+            </summary>
+        </member>
+        <member name="M:parameterJson.ParameterJson.#ctor(System.String)">
+            <summary>
+            Constructeur of the ParamterJson class where we assign the path to the variable
+            </summary>
+            <param name="jsonproperty">The property that we want to change in the parameter json</param>
+        </member>
+        <member name="M:parameterJson.ParameterJson.getParam">
+            <summary>
+            The method to get mulitple parameter in a list
+            </summary>
+            <returns>List of all parameter that the user specifie</returns>
+        </member>
+        <member name="M:parameterJson.ParameterJson.getOneParam">
+            <summary>
+            The method to use if we have one parameter to send in one property
+            </summary>
+            <returns>The parameter that the user ask</returns>
+        </member>
+        <member name="M:parameterJson.ParameterJson.addParam(System.String)">
+            <summary>
+            Add a value in a property in the parameter json 
+            </summary>
+            <param name="prop">The value the user want to add in a specific property</param>
+        </member>
+        <member name="M:parameterJson.ParameterJson.removeParam(System.String)">
+            <summary>
+            Remove a property in the parameter json
+            </summary>
+            <param name="prop">The property that the user want to remove</param>
+        </member>
+        <member name="M:parameterJson.ParameterJson.modifyOneParam(System.String)">
+            <summary>
+            The method to modify a specific value in a property
+            </summary>
+            <param name="prop">The new name of the value</param>
+        </member>
+        <member name="M:parameterJson.ParameterJson.updateJson">
+            <summary>
+            The method to update the json after each opperation
+            </summary>
+        </member>
+        <member name="T:SaveWork.SaveWork_VM">
+            <summary>
+            Class with all method for the CRUD of the Backup Job and verification of the user input
+            </summary>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.CreateSaveWork(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Method to create a Backup Job
+            </summary>
+            <param name="parameters">Name of the new Backup Job</param>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.RunSaveWork(System.String,System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Method to run one or more SaveWorks
+            </summary>
+            <param name="name">Name of the Backup Job</param>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.DeleteSaveWorks(System.String)">
+            <summary>
+            Method to delete a Backup Job
+            </summary>
+            <param name="Name">Name of the Backup Job to delete</param>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.ModifySaveWork(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Method to modify a Backup Job
+            </summary>
+            <param name="Name">Name of Backup Job to modify</param>
+            <param name="parameters">Dictionary that contain all parameter to modify</param>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.DisplaySaveWorks">
+            <summary>
+            Display all Backup Job
+            </summary>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.VerifSaveType(System.String)">
+            <summary>
+            Verify the SaveType with user input
+            </summary>
+            <param name="inputSavetype">backup type number</param>
+            <returns>The SaveType that the user choose</returns>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.VerifValidSaveWork(System.String,System.String,System.String)">
+            <summary>
+            Verify the Validity of the user input
+            </summary>
+            <param name="Name">Name of the Backup Job</param>
+            <param name="SourceRepo">Source Repository of the Backup Job</param>
+            <param name="TargetRepo">Target Repository of the Backup Job</param>
+            <returns>A bool that confirm the validity of the user input</returns>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.VerifValidSaveWork(System.String,System.String,System.String,System.String)">
+            <summary>
+            Verif the Validity of the user input when the Backup job is modify
+            </summary>
+            <param name="NameToModif">Name of the Backup Job to modify</param>
+            <param name="Name">New name of the Backup Job</param>
+            <param name="SourceRepo">New source repository of the Backup Job</param>
+            <param name="TargetRepo">New target repository of the Backup Job</param>
+            <returns>A bool that confirm the validity of the user input</returns>
+        </member>
+        <member name="M:SaveWork.SaveWork_VM.UpdateJson">
+            <summary>
+            Update the before each operation
+            </summary>
+        </member>
+    </members>
+</doc>

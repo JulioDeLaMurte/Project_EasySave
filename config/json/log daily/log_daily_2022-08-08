@@ -1,0 +1,47 @@
+{
+  "1": {
+    "Name": "My new backup",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\CV - étranger",
+    "FileTarget": "C:\\Users\\jules\\Desktop\\test a supprimer",
+    "FileSize": "5036",
+    "FileTransferTime": "00:00:00.2090137",
+    "Time": "08/08/2022 18:19:43",
+    "timeCrypt": "00.0640000"
+  },
+  "2": {
+    "Name": "My new backup",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\CV - étranger",
+    "FileTarget": "C:\\Users\\jules\\Desktop\\test a supprimer",
+    "FileSize": "5036",
+    "FileTransferTime": "00:00:00.2226990",
+    "Time": "08/08/2022 18:20:00",
+    "timeCrypt": "00.1430000"
+  },
+  "3": {
+    "Name": "My new backup",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\CV - étranger",
+    "FileTarget": "C:\\Users\\jules\\Desktop\\test a supprimer",
+    "FileSize": "5036",
+    "FileTransferTime": "00:00:00.1591429",
+    "Time": "08/08/2022 18:20:53",
+    "timeCrypt": "00.0530000"
+  },
+  "4": {
+    "Name": "error"
+  },
+  "5": {
+    "Name": "My new backup",
+    "FileSource": "C:\\Users\\jules\\Documents\\CESI\\CV - étranger",
+    "FileTarget": "C:\\Users\\jules\\Desktop\\test a supprimer",
+    "FileSize": "5036",
+    "FileTransferTime": "00:00:00.1443682",
+    "Time": "08/08/2022 18:21:53",
+    "timeCrypt": "00.0410000"
+  },
+  "6": {
+    "Name": "error"
+  },
+  "7": {
+    "Name": "error"
+  }
+}

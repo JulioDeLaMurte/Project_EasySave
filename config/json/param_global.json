@@ -1,0 +1,16 @@
+{
+  "encryptExtensions": {
+    "Id637753621272982046": ".pdf",
+    "Id637903312771336311": ".txt"
+  },
+  "prioExtension": {
+    "Id637903313168155642": ".mp3"
+  },
+  "software": {},
+  "key": {
+    "key1": "azertyuiop"
+  },
+  "logformat": "json",
+  "currentLanguage": "EN",
+  "fileSizeMax": "2600"
+}
