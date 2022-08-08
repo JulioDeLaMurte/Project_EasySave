@@ -21,7 +21,7 @@ namespace Language
         /// </summary>
         public Language_VM()
         {
-            currentLanguagePath = @"../../../../config/languages/currentLanguage.json";
+            currentLanguagePath = @"../../../../config/json/currentLanguage.json";
             availableLanguages = new List<string>() { "FR", "EN" };
 
         }

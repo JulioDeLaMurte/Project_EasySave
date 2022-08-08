@@ -1,14 +1,8 @@
 {
-  "Id637955795417167177": {
-    "Name": "My new backup",
-    "SourceRepo": "C:\\Users\\jules\\Documents\\CESI\\CV - étranger",
-    "TargetRepo": "C:\\Users\\jules\\Desktop\\",
-    "SaveType": "Complete"
-  },
-  "Id637955796488168539": {
-    "Name": "My old backup ",
+  "Id637955837868072986": {
+    "Name": "test",
     "SourceRepo": "C:\\Users\\jules\\Documents\\CESI",
-    "TargetRepo": "C:\\Users\\jules\\Desktop\\test a supprimer",
+    "TargetRepo": "C:\\Users\\jules\\Desktop\\##############################",
     "SaveType": "Complete"
   }
 }

@@ -1,24 +1,13 @@
 {
-  "Id637955795417951722": {
-    "Name": "My new backup",
-    "SourceRepo": "C:\\Users\\jules\\Documents\\CESI\\CV - étranger",
-    "TargetRepo": "C:\\Users\\jules\\Desktop\\",
-    "SaveType": "Complete",
-    "totalFileNb": "0",
-    "totalFileSize": "0",
-    "remainingFiles": "0",
-    "progression": "0",
-    "state": "END"
-  },
-  "Id637955796488182376": {
-    "Name": "My old backup ",
+  "Id637955837869032162": {
+    "Name": "test",
     "SourceRepo": "C:\\Users\\jules\\Documents\\CESI",
-    "TargetRepo": "C:\\Users\\jules\\Desktop\\test a supprimer",
+    "TargetRepo": "C:\\Users\\jules\\Desktop\\##############################",
     "SaveType": "Complete",
-    "totalFileNb": "0",
-    "totalFileSize": "0",
-    "remainingFiles": "0",
-    "progression": "0",
-    "state": "END"
+    "totalFileNb": "73120",
+    "totalFileSize": "686297",
+    "remainingFiles": "67505",
+    "progression": "7,6791577",
+    "state": "ACTIVE"
   }
 }

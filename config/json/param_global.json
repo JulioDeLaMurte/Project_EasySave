@@ -6,7 +6,9 @@
   "prioExtension": {
     "Id637903313168155642": ".mp3"
   },
-  "software": {},
+  "software": {
+    "Id637955842058626906": "discord"
+  },
   "key": {
     "key1": "azertyuiop"
   },
