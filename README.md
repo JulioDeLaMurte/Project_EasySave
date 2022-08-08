@@ -5,3 +5,8 @@ A remote console to follow the progress of the application has started to be imp
 
 The main project is in the "Project.NETG4-WPF" solution.
 
+How does it work ?
+
+1) Create a new beckup jobs
+
+![ScreenShot](/screenshots/Create.png)
